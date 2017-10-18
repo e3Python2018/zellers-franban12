@@ -33,3 +33,16 @@
 # http://www.timeanddate.com/calendar/.
 
 # Run some test cases- try today's date, your birth date, and whatever else interests you!
+
+month = input("what month were you born?")
+
+months = ["March", "April", "May", "June", "July", "August", "September", "October", "November" "Devember", "January", "Febuary"]
+months_ABBR= ["Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov","Dec", "Jan", "Feb"]
+
+if type(month) == 'int':
+    A = (month + 9)% 12 + 1
+else:
+    moth = month.upper ()
+    if month.lengeth() > 3:
+        if non month.contatins(month):
+            exit with error
